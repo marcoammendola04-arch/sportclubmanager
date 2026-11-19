@@ -1,0 +1,46 @@
+=== PHASE 1: Creation of an administrator, members and activities ===
+Created administrator: First name: Anna Last name: Verdi Email: anna.verdi@sportclub.it
+Created member: First name: Mario Last name: Rossi Email: mario.rossi@gmail.it
+Created member: First name: Luigi Last name: Bianchi Email: luigi.bianchi@tiscali.it
+Created member: First name: Anna Last name: Neri Email: anna.neri@mail.it
+Created activity: Swimming race
+Created activity: Yoga Course
+
+=== PHASE 2: Administrator adds, removes and modifies members ===
+Created member: First name: Marco Last name: Bruni Email: marco.bruni@tiscali.it
+Created member: First name: Giuliana Last name: Pagani Email: giuliana.pagani@gmail.it
+Created member: First name: Paolo Last name: Rossi Email: paolo.rossi@libero.it
+Removed person: First name: Giuliana Last name: Pagani Email: giuliana.pagani@gmail.it
+Modified Person: First name: Marco Last name: Rossi Email: marco.rossi@gmail.it
+
+Created activity: Temporary course
+Removed activity: Temporary course
+Error: This activity is not present in the club!
+
+=== PHASE 3: The system selects a member (login simulation) ===
+Login successful. Selected member: First name: Mario Last name: Rossi Email: mario.rossi@gmail.it
+
+=== PHASE 4: The member enrolls in a competition and a course, then cancels one enrollment ===
+Enrolled Mario in Swimming race
+Error: This member is already enrolled in this activity!
+Enrolled Mario in Yoga Course
+Cancelled enrollment of Mario from Yoga Course
+Error: This member is not enrolled in this activity!
+
+=== PHASE 5: Final report of members, administrators and activities ===
+--- People in the club ---
+[Administrator] First name: Anna Last name: Verdi Email: anna.verdi@sportclub.it
+[Member] First name: Mario Last name: Rossi Email: mario.rossi@gmail.it
+[Member] First name: Luigi Last name: Bianchi Email: luigi.bianchi@tiscali.it
+[Member] First name: Anna Last name: Neri Email: anna.neri@mail.it
+[Member] First name: Marco Last name: Rossi Email: marco.rossi@gmail.it
+[Member] First name: Paolo Last name: Rossi Email: paolo.rossi@libero.it
+
+--- Activities in the club ---
+Type: Swimming race
+Subscribed Members:
+- First name: Mario Last name: Rossi Email: mario.rossi@gmail.it
+
+Type: Yoga Course
+Subscribed Members:
+

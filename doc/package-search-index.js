@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"it.unipr.sportclubmanager.model"},{"l":"it.unipr.sportclubmanager.simulation"}];updateSearchResults();
